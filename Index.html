@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bíblia Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>Bíblia Sagrada Online</h1>
+        <div class="daily-verse" id="dailyVerse">
+            <p class="loading">Carregando versículo do dia...</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="search-section">
+            <h2>Buscar na Bíblia</h2>
+            <div class="search-box">
+                <select id="testamento">
+                    <option value="">Selecione o Testamento</option>
+                    <option value="Antigo Testamento">Antigo Testamento</option>
+                    <option value="Novo Testamento">Novo Testamento</option>
+                </select>
+
+                <select id="categoria">
+                    <option value="">Selecione a Categoria</option>
+                </select>
+
+                <select id="livro">
+                    <option value="">Selecione o Livro</option>
+                </select>
+
+                <select id="capitulo">
+                    <option value="">Capítulo</option>
+                </select>
+
+                <button id="buscar">Buscar</button>
+            </div>
+        </div>
+
+        <div class="versiculos-container" id="versiculos">
+            <!-- Versículos aparecerão aqui -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Bíblia Online &copy; 2023 - Todos os direitos reservados</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

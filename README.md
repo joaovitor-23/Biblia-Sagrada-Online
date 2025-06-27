@@ -1,4 +1,4 @@
-📖 Sobre o Projeto
+# 📖 Sobre o Projeto
 - A Bíblia Online é uma aplicação web que permite aos usuários:
 
 - Ler versículos bíblicos aleatórios como inspiração diária
@@ -7,10 +7,10 @@
 
 - Buscar por palavras-chave nas escrituras
 
-✨ Funcionalidades Principais
+## ✨ Funcionalidades Principais
 - Versículo do Dia: Exibe um versículo aleatório ao carregar a página
 
-Busca Avançada:
+### Busca Avançada:
 
 - Seleção por livro, capítulo e versículo
 
@@ -20,8 +20,8 @@ Busca Avançada:
 
 - Interface Intuitiva: Navegação simples e direta
 
-🛠 Tecnologias Utilizadas
-Frontend:
+## 🛠 Tecnologias Utilizadas
+### Frontend:
 
 - HTML5
 
@@ -29,6 +29,6 @@ Frontend:
 
 - JavaScript (ES6)
 
-Fontes:
+### Fontes:
 
 - Google Fonts (Playfair Display e Roboto)
